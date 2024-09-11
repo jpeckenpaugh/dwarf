@@ -60,7 +60,7 @@ To generate short urls, use a gRPC client such as this [node client](https://git
 Spin up an instance of redis with:
 
 ```bash
-docker run -p "6379:6379" --rm --name dwarf-redis redis:4-alpine
+docker run -p "6379:6379" --rm --name dwarf-redis redis:7-alpine
 ```
 
 ### Testing

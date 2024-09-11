@@ -1,13 +1,20 @@
 module github.com/LevInteractive/dwarf
 
+go 1.23.0
+
 require (
-	github.com/go-redis/redis v6.14.1+incompatible
-	github.com/golang/protobuf v1.2.0
-	github.com/gorilla/context v1.1.1
+	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/gorilla/mux v1.6.2
-	golang.org/x/net v0.0.0-20180926154720-4dfa2610cdf3
-	golang.org/x/sys v0.0.0-20180928133829-e4b3c5e90611
-	golang.org/x/text v0.3.0
-	google.golang.org/genproto v0.0.0-20180928223349-c7e5094acea1
-	google.golang.org/grpc v1.15.0
+	google.golang.org/grpc v1.66.1
+	google.golang.org/protobuf v1.34.2
+)
+
+require (
+	github.com/gorilla/context v1.1.1 // indirect
+	github.com/onsi/ginkgo v1.16.5 // indirect
+	github.com/onsi/gomega v1.34.2 // indirect
+	golang.org/x/net v0.28.0 // indirect
+	golang.org/x/sys v0.24.0 // indirect
+	golang.org/x/text v0.17.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240827150818-7e3bb234dfed // indirect
 )

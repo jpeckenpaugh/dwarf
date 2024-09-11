@@ -19,6 +19,7 @@ type LoadResult struct {
 
 // CreateServer for the gRPC server.
 type CreateServer struct {
+	pb.UnimplementedDwarfServer
 	Store storage.IStorage
 }
 
